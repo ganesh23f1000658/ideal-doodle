@@ -1,0 +1,11 @@
+name: Example CI
+
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 23f1000658@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
